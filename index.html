@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto Shop</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <span style="color: #5b46f6">Coin</span>
+          Quill
+        </div>
+        <ul class="nav_links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="container">
+        <video src="vid/stock.mp4" autoplay muted loop></video>
+        <div class="overlay">
+          <span>Join the crypto exchange</span><br />
+          <p>Popular way to buy crypto.</p>
+          <h1>
+            Our user-friendly platform provides a secure gateway for purchasing
+            a wide array of cryptocurrencies,<br />
+            empowering users to confidently navigate the dynamic world of
+            digital assets.
+          </h1>
+        </div>
+      </section>
+      <p class="title">Products</p>
+      <section class="products">
+        <div class="product">
+          <div class="product_name">
+            <p>Bitcoin</p>
+            <img src="img/bitcoin.png" alt="bitcoin" />
+          </div>
+          <div class="price">
+            <input
+              type="text"
+              id="amount_bitcoin_dollar"
+              name="amount_bitcoin_dollar"
+              minlength="2"
+              maxlength="8"
+              size="10"
+            />
+            <div class="currency">
+              <p>USD</p>
+              <img src="img/dollar.png" alt="dollar" />
+            </div>
+          </div>
+          <div class="price">
+            <div class="converted" id="converted1"></div>
+            <div class="currency">
+              <p>BTC</p>
+              <img src="img/bitcoin.png" alt="bitcoin" />
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="button">Buy</div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product_name">
+            <p>Ethereum</p>
+            <img src="img/ethereum.png" alt="ethereum" />
+          </div>
+          <div class="price">
+            <input
+              type="text"
+              id="amount_ethereum_dollar"
+              name="amount_ethereum_dollar"
+              minlength="2"
+              maxlength="8"
+              size="10"
+            />
+            <div class="currency">
+              <p>USD</p>
+              <img src="img/dollar.png" alt="dollar" />
+            </div>
+          </div>
+          <div class="price">
+            <div class="converted" id="converted2"></div>
+            <div class="currency">
+              <p>ETH</p>
+              <img src="img/ethereum.png" alt="ethereum" />
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="button">Buy</div>
+          </div>
+        </div>
+      </section>
+      <section class="products">
+        <div class="product">
+          <div class="product_name">
+            <p>Tether</p>
+            <img src="img/tether.png" alt="tether" />
+          </div>
+          <div class="price">
+            <input
+              type="text"
+              id="amount_tether_dollar"
+              name="amount_tether_dollar"
+              minlength="2"
+              maxlength="8"
+              size="10"
+            />
+            <div class="currency">
+              <p>USD</p>
+              <img src="img/dollar.png" alt="dollar" />
+            </div>
+          </div>
+          <div class="price">
+            <div class="converted" id="converted3"></div>
+            <div class="currency">
+              <p>THE</p>
+              <img src="img/tether.png" alt="tether" />
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="button">Buy</div>
+          </div>
+        </div>
+        <div class="product">
+          <div class="product_name">
+            <p>Solana</p>
+            <img src="img/solana.png" alt="solana" />
+          </div>
+          <div class="price">
+            <input
+              type="text"
+              id="amount_solana_dollar"
+              name="amount_solana_dollar"
+              minlength="2"
+              maxlength="8"
+              size="10"
+            />
+            <div class="currency">
+              <p>USD</p>
+              <img src="img/dollar.png" alt="dollar" />
+            </div>
+          </div>
+          <div class="price">
+            <div class="converted" id="converted4"></div>
+            <div class="currency">
+              <p>SOL</p>
+              <img src="img/solana.png" alt="solana" />
+            </div>
+          </div>
+          <div class="buttons">
+            <div class="button">Buy</div>
+          </div>
+        </div>
+      </section>
+      <section class="about_section">
+        <div class="text">
+          <p style="text-align: center">We sell crypto At CoinQuill</p>
+          <br /><br />
+          We're passionate about the transformative potential of
+          cryptocurrencies.<br />Our team, comprised of dedicated enthusiasts
+          and experts, is committed to making the world of digital currencies
+          accessible to everyone.<br /><br />CoinQuill is your one-stop shop for
+          all things crypto.<br />Our unwavering dedication to security,
+          user-friendliness, and customer satisfaction drives us to continually
+          innovate and offer the best tools and insights, ensuring that you can
+          navigate the exciting realm of cryptocurrencies confidently.
+        </div>
+        <div class="stats">
+          <div class="stat">
+            <p style="font-size: 36px">Security</p>
+            Robust security features with 2FA and SSL encryption.
+          </div>
+          <div class="stat">
+            <p style="font-size: 36px">Reliability</p>
+            Positive user reviews and a reliable track record.
+          </div>
+          <div class="stat">
+            <p style="font-size: 36px">Range</p>
+            Wide variety of cryptocurrencies for purchase.
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container1">
+        <div class="footer-columns">
+          <div class="footer-column">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">About</a></li>
+              <li><a href="">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-column">
+            <h3>Contact Us</h3>
+            <p>Email: info@coinquill.com</p>
+            <p>Phone: +1234567890</p>
+          </div>
+          <div class="footer-column">
+            <h3>By</h3>
+            <ul>
+              <li>Jouini Ahmed</li>
+              <li>Gharbi Youssef</li>
+              <li>Groupe 4</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">&copy; 2023 Coin Quill. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
